@@ -19,6 +19,10 @@
       event.preventDefault();
     });
     
+    $(".trigger").click(function (event) {
+      console.log("event: " + event.type);
+    });
+    
   });
   
 }());
