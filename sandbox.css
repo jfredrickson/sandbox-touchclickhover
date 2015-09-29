@@ -1,9 +1,12 @@
-.trigger {
+.trigger-box {
   display: inline-block;
   padding: 10px;
   border: 1px solid #aaa;
   background-color: #eee;
-  cursor: pointer;
+}
+
+.trigger-box a {
+  text-decoration: none;
 }
 
 .panel {
